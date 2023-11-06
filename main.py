@@ -13,7 +13,7 @@ class Hero:
     def _get_total_damage(self, damage):
         return damage - self.defence
 
-    def _get_damage(self, damage):
+    def _get_damage2(self, damage):
         self._hp -= self._get_total_damage(damage)
 
     def attack(self, enemy):
